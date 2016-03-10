@@ -12,10 +12,10 @@
 <body>
 	<div class="Header" align="center">
 		<ul>
-			<li><a class="selected" href="/index.php/Home/Accueil">Accueil</a></li>
+			<li><a href="/index.php/Home/Accueil">Accueil</a></li>
 			<li><a href="/index.php/Home/AjouterCommande">Placer une commande</a></li>
 			<li><a href="/index.php/Home/Creations">Mes créations</a></li>
-			<li><a href="/index.php/Home/Contact">Me contacter</a></li>
+			<li><a class="selected" href="/index.php/Home/Contact">Me contacter</a></li>
 			<li><a href="/index.php/Home/APropos">À propos</a></li>
 		</ul>	
 	</div>
@@ -23,7 +23,7 @@
 	<div class="Main" align="center">
 
 		<div class="BoxAddOrder" align="center">
-			Accueil
+			présentation
 		</div>
 
 	</div>
