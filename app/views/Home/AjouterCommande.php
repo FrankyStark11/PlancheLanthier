@@ -35,7 +35,7 @@
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/Creations">Mes créations</a></li>
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/AjouterCommande">Placer une commande</a></li>
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/APropos">À propos</a></li>
-			<li class="feetbar"><a class="feetbar" href="/index.php/Home/AdminLogin">Espace Administrateur</a></li>
+			<li class="feetbar"><a class="feetbar" href="/index.php/Admin/Login">Espace Administrateur</a></li>
 			<li class="feetbar"><a class="logo" href="https://www.facebook.com/Planches-à-découper-personnalisées-820583641333010/?fref=nf"><img src="../../images/icon/facebook.png" class="logoFB"></a></li>
 		</ul>	
 	</div>

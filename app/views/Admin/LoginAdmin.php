@@ -16,16 +16,28 @@
 			<li><a href="/index.php/Home/AjouterCommande">Placer une commande</a></li>
 			<li><a href="/index.php/Home/Creations">Mes créations</a></li>
 			<li><a href="/index.php/Home/Contact">Me contacter</a></li>
-			<li><a class="selected" href="/index.php/Home/APropos">À propos</a></li>
+			<li><a href="/index.php/Home/APropos">À propos</a></li>
 		</ul>	
 	</div>
 
 	<div class="Main" align="center">
 
-		<div class="BoxAddOrder" align="center">
-			APropos
+		<div class="BoxLogin" align="center">
+			<form method="post" action="#">
+				<img class="Login" src="../../images/icon/user.png">
+				<table class="LoginAdmin">
+					<tr>
+						<td><input class="Log" type="text" name="User" placeholder=" Nom d'utilisateur "></td>
+					</tr>
+					<tr>
+						<td><input class="Log" type="password" name="MDP" placeholder=" Mot de passe "></td>
+					</tr>
+					<tr>
+						<td><button class="Connexion" type="submit" value="Connexion" >Connexion</button></td>
+					</tr>
+				</table>
+			</form>	
 		</div>
-
 	</div>
 
 	<div class="feet" align="center">
@@ -35,7 +47,7 @@
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/Creations">Mes créations</a></li>
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/AjouterCommande">Placer une commande</a></li>
 			<li class="feetbar"><a class="feetbar" href="/index.php/Home/APropos">À propos</a></li>
-			<li class="feetbar"><a class="feetbar" href="/index.php/Admin/Login">Espace Administrateur</a></li>
+			<li class="feetbar"><a class="feetbar" href="/index.php/Admin/Index">Espace Administrateur</a></li>
 			<li class="feetbar"><a class="logo" href="https://www.facebook.com/Planches-à-découper-personnalisées-820583641333010/?fref=nf"><img src="../../images/icon/facebook.png" class="logoFB"></a></li>
 		</ul>	
 	</div>

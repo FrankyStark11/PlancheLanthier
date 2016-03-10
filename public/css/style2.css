@@ -38,6 +38,27 @@ div.BoxAddOrder{
 	box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+div.BoxLogin{
+	display: block;
+
+	width: 600px;
+	height: 500px;
+
+	border-radius: 5px;
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	padding-top: 90px;
+	padding-bottom: 5px;
+
+	background-color: #d7d7d7;
+
+	box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	vertical-align: center;
+}
+
 div.NavMenuDiv{
 	display: block;
 
@@ -237,6 +258,65 @@ h2{
 img.logoFB{
 	width: 20px;
 	height: 20px;
+}
+
+table.loginAdmin{
+
+}
+
+img.Login{
+	width: 200px;
+	height: 200px;
+
+	border-radius: 100px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+
+	margin-top: 20px;
+}
+
+input.Log{
+
+	width: 250px;
+	height: 40px;
+
+	margin-top: 10px;
+
+	border-radius: 2px;
+	border-width: 0px;
+
+	font-family: "Caviar";
+	font-size: 20px;
+
+	background-color: black;
+	color: white;
+
+	text-align: center;
+}
+
+button.Connexion{
+	width: 250px;
+	height: 40px;
+
+	border-radius: 2px;
+	border-width: 0px;
+
+	font-family: "Caviar";
+	font-size: 20px;
+
+	background-color: black;
+	color: white;
+
+	margin-top: 10px;
+
+	cursor: pointer;
+}
+
+button.Connexion:hover{
+
+	background-color: green;
+	color: white;
 }
 
 table.InfoClient{
