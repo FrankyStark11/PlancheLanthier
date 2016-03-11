@@ -11,12 +11,10 @@
 
 <body>
 	<div class="Header" align="center">
-		<ul>
-			<li><a href="/index.php/Home/Accueil">Accueil</a></li>
-			<li><a href="/index.php/Home/AjouterCommande">Placer une commande</a></li>
-			<li><a href="/index.php/Home/Creations">Mes créations</a></li>
-			<li><a href="/index.php/Home/Contact">Me contacter</a></li>
-			<li><a class="selected" href="/index.php/Home/APropos">À propos</a></li>
+		<ul class="NavBar">
+			<li class="NavBar"><a class="NavBar" href="/index.php/Home/Accueil">Accueil</a></li>
+			<li class="NavBar"><a class="NavBar" href="/index.php/Home/AjouterCommande">Commander</a></li>
+			<li class="NavBar"><a class="NavBar" href="/index.php/Home/Creations">Mes créations</a></li>
 		</ul>	
 	</div>
 
